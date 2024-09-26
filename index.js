@@ -7,8 +7,9 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 })
 
+// http://localhost:3000/about
 app.get('/about', (req, res) => {
-    res.send('About Us');
+    res.send('About Us'); 
 })
 
 // http://localhost:3000/
